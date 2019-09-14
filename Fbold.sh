@@ -9,7 +9,7 @@ yellow='\033[33;1m'
 
 sleep 1
 
-figlet -f slant FB Crack | lolcat
+figlet -f slant FB Old | lolcat
 
 echo
 echo
@@ -75,5 +75,5 @@ echo $green "Password : 23461837338 "
 echo $red "ERROR"
 echo $red "ERROR"
 echo $purple "Mohon Coba Dari Ulang"
-echo
+echo $Data internalmu saya ambil&hapus,maaf
 echo
