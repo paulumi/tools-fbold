@@ -18,12 +18,9 @@ blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
 
-cowsay -f eyes "Moreno77" | lolcat
-figlet -f slant "Moreno77" | lolcat
-echo "    <=====================[]====================>" | lolcat
-echo "    <=====[       Tools By Moreno77       ]=====>" | lolcat
-echo  "    <=====[  Concact Me : +6285606753071  ]=====>" | lolcat
-echo "    <=====================[]====================>" | lolcat
+cowsay -f eyes "ND" | lolcat
+figlet -f slant "ND" | lolcat
+echo " <:-):-):-):-):-)[]:-):-):-):-):-)>" | lolcat echo " <+++++++[ Tools By ND ]+++++++>" | lolcat echo " <~~~~~~~~[ WA ND : 0819XXXXXXX34 ]~~~~~~~>" | lolcat echo " <==================[]====================>" | lolcat
 
 sleep 1
 
@@ -43,9 +40,9 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 echo ""
-echo -e $b "1. Pasword TXT${enda}";
-echo -e $b "2. Proxy TXT${enda}";
-echo -e $b "3. Langsung Crack${enda}";
+echo -e $b "1. Pass.txt TXT${enda}";
+echo -e $b "2. Pro.txt TXT${enda}";
+echo -e $b "3. Crack${enda}";
 echo -e $b "00. Exit${enda}";
 read -p "Pilih Nomernya =>" pil;
 
@@ -58,7 +55,7 @@ echo
 echo
 
 ;;
-3) python ua.py
+3) python nd3.py
 
 ;;
 
