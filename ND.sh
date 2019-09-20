@@ -20,10 +20,10 @@ red='\e[1;31m'
 
 cowsay -f eyes "ND" | lolcat
 figlet -f slant "ND" | lolcat
-echo "    <////////////////////////[]\\\\\\\\\\\\\\\\\\>" | lolcat
+echo "    <:-):-):-):-):-)[]:-):-):-):-):-)>" | lolcat
 echo "    <+++++++[       Tools By ND       ]+++++++>" | lolcat
-echo  "    <~~~~~~~[  WA ND : 0819XXXXXXX34  ]~~~~~~~>" | lolcat
-echo "    <=====================[]====================>" | lolcat
+echo  "   <~~~~~~~~[  WA ND : 0819XXXXXXX34 ]~~~~~~~>" | lolcat
+echo "    <==================[]====================>" | lolcat
 
 sleep 1
 
@@ -43,48 +43,48 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 echo ""
-echo $b "1. Hack Akun Ig${enda}";
-echo $b "2. Hack Akun FbOld${enda}";
-echo $b "3. Multi BruteForce FbOld${enda}";
+echo $b "1. Hack-Ig${enda}";
+echo $b "2. Hack-Fb${enda}";
+echo $b "3. MBF-Fb${enda}";
 echo $b "4. Websc${enda}";
-echo $b "5. Spam Jd.id${enda}";
-echo $b "6. Tools ND${enda}";
-echo $b "7. Spam Telkomsel${enda}";
+echo $b "5. Spam-Jdid${enda}";
+echo $b "6. Tools-ND${enda}";
+echo $b "7. Spam-Telkomnyet${enda}";
 echo $b "8. Install Bahan Cuk${enda}";
-echo $b "99. Exit${enda}";
+echo $b "00. Exit${enda}";
 read -p " Pilih Nomornya =>" pil;
 
 case $pil in
-1) sh Ig.sh
+1) sh ig.sh
 echo
 
 ;;
-2) python2 Fb.py
+2) python2 fb.py
 
 ;;
-3) python2 nd.py
+3) python2 mbf.py
 
 ;;
-4) sh bh.sh
+4) sh wc.sh
 
 ;;
-5) php fs.php
-
-;;
-
-6) sh fs.sh
+5) php id.php
 
 ;;
 
-7) php xc.php
+6) sh tools.sh
 
 ;;
 
-8) sh xd.sh
+7) php nyet.php
 
 ;;
 
-99) echo "Autor : ND" | lolcat
+8) sh install.sh
+
+;;
+
+00) echo "Autor : ND" | lolcat
 figlet -f slant "ND" | lolcat
 exit
 ;;
