@@ -1,9 +1,9 @@
 clear
 figlet '    WEBSC' | lolcat
-echo "    </////////////////////////[]\\\\\\\\\\\\\\\\\\\\\\\>" | lolcat
-echo "    <=====[       Tools By ND       ]=====>" | lolcat
-echo  "    <*****[  WA ND : 0819XXXXXX43  ]******>" | lolcat
-echo "    <=====================[]====================>" | lolcat
+ echo "    <:-):-):-):-):-)[]:-):-):-):-):-)>" | lolcat
+echo "    <+++++++[       Tools By ND       ]+++++++>" | lolcat
+echo  "   <~~~~~~~~[  WA ND : 0819XXXXXXX34 ]~~~~~~~>" | lolcat
+echo "    <==================[]====================>" | lolcat
 sleep 1
 read -p "Enter Target =>" target;
 read -p "Enter Name Sc =>" script;
