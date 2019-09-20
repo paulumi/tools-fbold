@@ -28,10 +28,10 @@ echo "    <=====================[]====================>" | lolcat
 sleep 1
 
 ###################################################
-# CTRL + N
+# CTRL + C
 ###################################################
-trap ctrl_n INT
-ctrl_n() {
+trap ctrl_c INT
+ctrl_c() {
 clear
 clear
 sleep 1
@@ -46,7 +46,7 @@ echo ""
 echo $b "1. Hack Akun Ig${enda}";
 echo $b "2. Hack Akun FbOld${enda}";
 echo $b "3. Multi BruteForce FbOld${enda}";
-echo $b "4. Webdav${enda}";
+echo $b "4. Websc${enda}";
 echo $b "5. Spam Jd.id${enda}";
 echo $b "6. Tools ND${enda}";
 echo $b "7. Spam Telkomsel${enda}";
@@ -65,7 +65,7 @@ echo
 3) python2 nd.py
 
 ;;
-4) sh beha.sh
+4) sh bh.sh
 
 ;;
 5) php fs.php
