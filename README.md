@@ -1,1 +1,1 @@
-# alat fb kebodohan hanya orang malas yang mau gunakan alat ini.
+Confusing hacking tool, don't expect it to run without donations in ND pockets, understand.
