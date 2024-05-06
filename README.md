@@ -31,17 +31,10 @@ selamat senang-senang ###
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panggilan</title>
 </head>
+    
 <body>
     <h1>Panggilan</h1>
     <p>Silakan klik tombol di bawah ini untuk memulai panggilan:</p>
-    <a href="tel:+628123456789">Hubungi kami</a>
+    <a href="tel:+6281932309343">Hubungi kami</a>
 </body>
 </html>
-import webbrowser
-
-def start_call(phone_number):
-    webbrowser.open('tel:' + phone_number)
-
-if __name__ == "__main__":
-    phone_number = "+6281932309343"  # Ganti dengan nomor telepon yang ingin Anda hubungi
-    start_call(phone_number)
